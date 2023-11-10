@@ -1,4 +1,5 @@
 # Sooky-assessment.
 
-Makeing  a small backend application which can generate and emit an encrypted data stream over a socket, listens to incoming data stream on a socket, decrypts and decodes it, save to a time series db and then emit the saved data to a small frontend app. Backend services can be in any language (Node JS is preferred, but use Go or any other that you are comfortable with).
+I am developing a small backend application that can generate and transmit an encrypted data stream over a socket. The application also listens to incoming data stream on a socket, decrypts and decodes it, and saves it to a time series database. Finally, the application transmits the saved data to a small frontend app. The backend services can be developed in any programming language, although Node JS is preferred. You can also use Go or any other language that you are comfortable with.
+
 the server is running on port  localhost:3000 
